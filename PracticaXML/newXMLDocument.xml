@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<root>
+    <semana>
+        <dia nombre="Lunes">
+            <clase>
+                <hora>8:00-9:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+              <hora>9:00-10:00</hora>
+                <Asignatura></Asignatura>  
+            </clase>
+            <clase>
+                <hora>10:00-11:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>11:30-12:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>12:30-13:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>13:30-14:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+
+        </dia>
+        <dia nombre="Martes">
+            <clase>
+                <hora>8:00-9:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+              <hora>9:00-10:00</hora>
+                <Asignatura></Asignatura>  
+            </clase>
+            <clase>
+                <hora>10:00-11:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>11:30-12:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>12:30-13:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>13:30-14:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+        </dia>
+
+         <dia nombre="Miercoles">
+             <clase>
+                <hora>8:00-9:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+              <hora>9:00-10:00</hora>
+                <Asignatura></Asignatura>  
+            </clase>
+            <clase>
+                <hora>10:00-11:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>11:30-12:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>12:30-13:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>13:30-14:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+        </dia>
+        <dia nombre="Jueves">
+            <clase>
+                <hora>8:00-9:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+              <hora>9:00-10:00</hora>
+                <Asignatura></Asignatura>  
+            </clase>
+            <clase>
+                <hora>10:00-11:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>11:30-12:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>12:30-13:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>13:30-14:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+        </dia>
+        <dia nombre="Viernes">
+             <clase>
+                <hora>8:00-9:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+              <hora>9:00-10:00</hora>
+                <Asignatura></Asignatura>  
+            </clase>
+            <clase>
+                <hora>10:00-11:00</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>11:30-12:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>12:30-13:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+            <clase>
+                <hora>13:30-14:30</hora>
+                <Asignatura></Asignatura>
+            </clase>
+        </dia>
+
+
+    </semana>
+    
+</root>
+
