@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<taquillas>
+    <taquilla pais="España">
+        <fecha-inicial>25/12/2023</fecha-inicial>
+        <fecha-final>25/12/2023</fecha-final>
+        <pelicula>
+            <titulo pos="1">
+            <genero></genero>
+            <semana></semana>
+            <Recaudaciones>
+                <Finsemana></Finsemana>
+                <total></total>
+            </Recaudaciones>
+        </titulo>
+        </pelicula>
+    </taquilla>
+</taquillas>
+

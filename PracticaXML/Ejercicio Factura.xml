@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<Factura>
+    <Empresa nombre="Equipos Digitales S.L">
+        <Direccion>Av.Valladolid</Direccion>
+        <Codigo_Postal>28015</Codigo_Postal>
+        <telefono>917776688</telefono>
+        <FAX>917776688</FAX>
+        <Fecha>12-01-2005</Fecha>
+        <Numero_Pedido>731</Numero_Pedido>
+        <Forma_de_pago>Efectivo</Forma_de_pago>
+    </Empresa>
+    
+    <Cliente>
+        <Numero>879</Numero>
+        <Nombre>Dario Bueno Gutierrez</Nombre>
+        <Direccion>Av.Oporto nº7 4ºD</Direccion>
+        <Poblacion>Madrid</Poblacion>
+        <Cod.Postal>28043</Cod.Postal>
+        <Provincia>Madrid</Provincia>
+        
+    </Cliente>
+    <Datos_Factura>
+        <REF></REF>
+        <DESCRIPCION></DESCRIPCION>
+        <Cantidad></Cantidad>
+        <Precio></Precio>
+        <I.V.A></I.V.A>        
+        <Importe></Importe>
+        <Base_Imponible></Base_Imponible>
+        <Porcentaje></Porcentaje>
+        <CUOTA></CUOTA>
+        <Total></Total>
+    </Datos_Factura>
+</Factura>
+
