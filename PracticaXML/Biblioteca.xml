@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<Biblioteca>
+    <ubicacion>
+        <Seccion></Seccion>
+        <Estanteria></Estanteria>
+    </ubicacion>
+    <Libro ISBN = "">
+    <Titulo></Titulo>
+    <Idioma></Idioma>
+    <Autor></Autor>
+    <Categoria></Categoria>
+    <Edicion></Edicion>
+    <Ano></Ano>
+    <Editorial></Editorial>
+    <Resumen></Resumen>
+    </Libro>
+    <Ejemplar estado= "">
+        <FCompra></FCompra>
+        <LPrestamos></LPrestamos>
+    </Ejemplar>
+    <Prestamo>
+        <Usuario></Usuario>
+        <FPrestamo></FPrestamo>
+        <FDevolucion></FDevolucion>
+    </Prestamo>
+    <Usuario id = "">
+        <Nombre></Nombre>
+        <Apellidos></Apellidos>
+        <FNacimiento></FNacimiento>
+    </Usuario>
+</Biblioteca>
+

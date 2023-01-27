@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<Nomina moneda = "€" Pais = "España">
+    <Empresa C.I.F = "">
+        <Domicilio></Domicilio>
+        <CodigoSS></CodigoSS>
+    </Empresa>
+    <Trabajador N.I.F = "">
+        <Nombre>Luis Gutierrez Alonso</Nombre>
+        <CP>Ingeniera</CP>
+        <GP>1</GP>
+        <Antiguedad></Antiguedad>
+        <Afilacion></Afilacion>
+    </Trabajador>
+    <Liquidacion dias = "30">
+        <FechaInicio>1-03</FechaInicio>
+        <FechaFin>31-03</FechaFin>
+    </Liquidacion>
+    <Devengos total = "1852">
+        <Percepcion_Salariales>
+            <SalarioBase>1500</SalarioBase>
+            <Complementos>
+                <incentivos>192</incentivos>
+                <Horas_Extras Total = "160">
+                    <Estructurales>60</Estructurales>
+                    <F_Mayor>100</F_Mayor>
+                </Horas_Extras>
+            </Complementos>
+        </Percepcion_Salariales>
+    </Devengos>
+    <Deducciones total = "1480,57">
+        <Conceptos>
+            <CC base= "1942" porcentaje= "%4,70">91,27</CC>
+            <Desmpleo base= "2102" porcentaje ="%1,55">32,58</Desmpleo>
+            <FP base= "2102" porcentaje ="%0,10"></FP>
+            <H_Extras>
+                <F_Mayor horas = "100" porcentaje= "2%"></F_Mayor>
+                <Otras horas = "60" porcentaje ="4,70"></Otras>
+            </H_Extras>
+        </Conceptos>
+    </Deducciones>
+</Nomina>
+
