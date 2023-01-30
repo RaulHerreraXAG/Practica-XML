@@ -22,28 +22,49 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
         <FechaInicio>1-03</FechaInicio>
         <FechaFin>31-03</FechaFin>
     </Liquidacion>
-    <Devengos total = "1852">
+    <Devengos total = "1852€">
         <Percepcion_Salariales>
             <SalarioBase>1500</SalarioBase>
             <Complementos>
                 <incentivos>192</incentivos>
-                <Horas_Extras Total = "160">
+                <Horas_Extras Total = "160€">
                     <Estructurales>60</Estructurales>
                     <F_Mayor>100</F_Mayor>
                 </Horas_Extras>
             </Complementos>
         </Percepcion_Salariales>
+        <Percepcion_NoSalariales>
+            <Indeminizaciones>0</Indeminizaciones>
+            <Prestaciones_Empresa>0</Prestaciones_Empresa>
+            <Prestaciones_SS>0</Prestaciones_SS>
+            <Otras></Otras>
+        </Percepcion_NoSalariales>
     </Devengos>
-    <Deducciones total = "1480,57">
-        <Conceptos>
-            <CC base= "1942" porcentaje= "%4,70">91,27</CC>
-            <Desmpleo base= "2102" porcentaje ="%1,55">32,58</Desmpleo>
-            <FP base= "2102" porcentaje ="%0,10"></FP>
+    <Deducciones total = "371,53€">
+        <Conceptos total = "130,77€">
+            <CC base= "1942€" porcentaje= "%4,70">91,27€</CC>
+            <Desmpleo base= "2102" porcentaje ="%1,55">32,58€</Desmpleo>
+            <FP base= "2102€" porcentaje ="%0,10">2,10€</FP>
             <H_Extras>
-                <F_Mayor horas = "100" porcentaje= "2%"></F_Mayor>
-                <Otras horas = "60" porcentaje ="4,70"></Otras>
+                <F_Mayor horas = "100€" porcentaje= "2%">2,00€</F_Mayor>
+                <Otras horas = "60€" porcentaje ="4,70">2,82€</Otras>
             </H_Extras>
         </Conceptos>
+        <IRPF base ="1852€" porcentaje="13%">240,76</IRPF>
+        <Anticipos></Anticipos>
+        <Valor_Productos_Recibidos></Valor_Productos_Recibidos>
+        <Otros></Otros>
+        <Liquido total="1480,37€"></Liquido>
     </Deducciones>
+    <BCSS>
+        <BCCC Base ="1942,00€">
+            <Incapacidad_Temporal></Incapacidad_Temporal>
+            <Remuneracion_Mensual>1692€</Remuneracion_Mensual>
+            <Prorrata>250€</Prorrata>
+        </BCCC>
+        <BCCP Total="2102,00€"></BCCP>
+        <BC_Horas total="160€"></BC_Horas>
+        <B_IRPF Total="1852€"></B_IRPF>
+    </BCSS>
 </Nomina>
 
