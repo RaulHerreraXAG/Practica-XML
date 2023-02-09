@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE html[
+<!ELEMENT html (head, body)>
+<!ELEMENT head (title)>
+<!ELEMENT body (p|h1|h2|h3|h4|ul|ol|img|br|hr)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT h3 (#PCDATA)>
+<!ELEMENT h4 (#PCDATA)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED width CDATA #IMPLIED height CDATA #IMPLIED>
+<!ELEMENT ul (li)+>
+<!ELEMENT ol (li)+>
+<!ELEMENT li (#PCDATA)>
+<!ELEMENT strong (#PCDATA)>
+<!ELEMENT br EMPTY>
+<!ELEMENT hr EMPTY>
+]>
+
+
+<html>
+  <head>
+    <title>Mi vida</title>
+  </head>
+  <body>
+    <h1>Sobre mí</h1>
+    <p>Mi nombre Raul y tengo 19 años, me gusta vivir la vida</p>
+    <p>Me gusta viajar y conocer nuevas tradiciones diferentes a la de mi nacionalidad. He viajado a:</p>
+    <ol>
+      <li>Japón</li>
+      <li>Italia</li>
+      <li>Australia</li>
+    </ol>
+    <h2>Estudios</h2>
+    <ul>
+      <li>SMR</li>
+      <li>ESO</li>
+    </ul>
+  </body>
+</html>
+

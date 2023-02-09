@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE root PUBLIC '-//W3C//DTD HTML 3.2 Final//EN' 'null'>
+
+
+<familia>
+    <persona dni ="323232323t" edad="56">
+        <NOMBRE>Raul</NOMBRE>
+        <Apellido>Herrera</Apellido>
+        <Email>Raulajm07@gmail.com</Email>
+        <parentesco></parentesco>
+    </persona>
+</familia>
+
+
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre, apellidos, email, parentesco)>
+<!ATTLIST persona dni CDATA #IMPLIED
+                edad CDATA #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT parentesco (#PCDATA)>
+

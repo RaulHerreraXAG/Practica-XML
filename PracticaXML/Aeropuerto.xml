@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE aeropuerto[
+<!ELEMENT aeropuerto (nombre,vuelo,fecha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT vuelos (vuelo+)>
+<!ELEMENT vuelo (origen, destino, diario, salida, llegada)>
+<!ATTLIST vuelo codigo ID #REQUIRED>
+<!ATTLIST vuelo estado (C|E|R) "E">
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT salida (#PCDATA)>
+<!ELEMENT llegada (#PCDATA)>
+
+]>
+
+
+
+<aeropuerto>
+    <nombre>AGP</nombre>
+    <vuelos>
+        <vuelo estado="E" codigo= "">
+        <origen></origen>
+        <destino></destino>
+        <diario>
+        <salida></salida>
+        <llegada></llegada>
+        </diario>
+    </vuelo>
+    </vuelos>
+    <fecha></fecha>
+</aeropuerto>
+

@@ -1,0 +1,20 @@
+{
+    "Categoria":"junior",
+    "Empleado":{
+        "Nombre":"Francisco",
+        "Apellido":"Romero",
+        "DNI":"56789854T",
+        "Domicilio":"Velez",
+        "CP":"298700",
+        "CIudad":"Malaga",
+        "puesto":{
+            "Codigo":"gf",
+            "descripcion":"DWDADASDASDSA",
+            "Sueldo":45000
+        }
+        
+            
+    }
+    
+        
+ }

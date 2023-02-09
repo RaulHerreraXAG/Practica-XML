@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE cesur[
+<!ELEMENT centro (alumnos,profesor)>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (contactos , docente>
+
+<!ELEMENT contacto (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+
+<!ELEMENT informacion (ciclo, matricula, modulo+)>
+<!ELEMENT ciclo (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT modulo (#PCDATA)|->
+
+<!ELEMENT profesores (profesor+)>
+<!ELEMENT profesor (contactos,modulos)>
+]>
+
+
+
+<cesur>
+    <informacion>
+        <alumnos>
+            <nombre></nombre>
+            <direccion></direccion>
+            <fecha_nac></fecha_nac>
+            <contactos>
+                <correo></correo>
+                <telefono></telefono>
+            </contactos>
+            <docente>
+                <ciclo></ciclo>
+                <fecha_matriculacion></fecha_matriculacion>
+                <modulo></modulo>
+            </docente>
+        </alumnos>        
+        <profesor>
+              <nombre></nombre>
+            <direccion></direccion>
+            <fecha_nac></fecha_nac>
+            <contactos>
+                <correo></correo>
+                <telefono></telefono>
+            </contactos>
+             <docente>
+                <ciclo></ciclo>
+                <modulo></modulo>
+            </docente>
+        </profesor>
+    </informacion>
+</cesur>
+
